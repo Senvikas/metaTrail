@@ -6,11 +6,6 @@ import Home from "../components/Home";
 import PageNotFound from "../components/PageNotFound"; // Optional: handle unmatched routes
 
 
-import Fip from "../components/Fip";
-import Fop from "../components/Fop";
-import CA from "../components/CA";
-import EP from "../components/EP";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,13 +16,8 @@ const router = createBrowserRouter([
 
 
       // // Sing In
-      { path: "/Fip", element: <Fip /> },
+      // { path: "/signin", element: <SignIn /> },
 
-      { path: "/Fop", element: <Fop /> },
-
-      { path: "/CA", element: <CA /> },
-
-      { path: "/Comp_App", element: <EP /> },
       // Optional: catch-all route for unmatched paths
       { path: "*", element: <PageNotFound /> },
     ],

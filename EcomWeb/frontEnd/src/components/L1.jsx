@@ -17,7 +17,7 @@ function L1() {
   const [activeStep, setActiveStep] = useState(null);
 
   return (
-    <div className="min-h-screen bg-blue-900 text-white flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-blue-900 text-white flex flex-col items-center p-4">
       <h1 className="text-3xl font-bold mb-8">MetaTrail Packet Flow</h1>
       <div className="relative w-full max-w-4xl flex flex-wrap justify-center items-center">
         {/* Render flow steps */}

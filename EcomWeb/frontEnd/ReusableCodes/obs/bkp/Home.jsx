@@ -19,7 +19,7 @@ const Home = () => {
 
       <DotsWithNavbar />
 
-      {/* <Fip /> */}
+      <Fip />
 
       {/* <L1 /> */}
 
